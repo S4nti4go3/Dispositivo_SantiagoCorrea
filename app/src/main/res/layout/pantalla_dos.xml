@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola Santiago Correa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/btnVolveralMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="Volver a pantalla principal"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#9F00FFC4"
+        android:textColor="@color/cardview_light_background"/>
+
+</RelativeLayout>

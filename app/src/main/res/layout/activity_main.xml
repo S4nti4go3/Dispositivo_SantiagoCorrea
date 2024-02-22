@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usuario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Botón Uno"
+        android:textColor="@color/cardview_light_background"
+        android:backgroundTint="#9F00FFC4"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Botón Dos"
+        android:layout_below="@id/btn1"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#9F00FFC4"
+        android:textColor="@color/cardview_light_background"/>
+
+    <Button
+        android:id="@+id/btnIrASecondActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir a segunda pantalla"
+        android:layout_below="@id/btn2"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#9F00FFC4"
+        android:textColor="@color/cardview_light_background"/>
+
+    <WebView
+        android:id="@+id/webViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnIrASecondActivity"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="usuario" type="id" />
+    <item name="btn1" type="id" />
+    <item name="btn2" type="id" />
+    <item name="btnIrASecondActivity" type="id" />
+    <item name="webViewMain" type="id" />
+    <item name="txtMensaje" type="id" />
+    <item name="btnVolveralMain" type="id" />
+</resources>
